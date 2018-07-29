@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893FF07F210CD8EB001C0B13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 893FF07E210CD8EB001C0B13 /* AppDelegate.m */; };
+		893FF082210CD8EB001C0B13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893FF081210CD8EB001C0B13 /* ViewController.m */; };
+		893FF084210CD8EC001C0B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893FF083210CD8EC001C0B13 /* Assets.xcassets */; };
+		893FF087210CD8EC001C0B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893FF085210CD8EC001C0B13 /* Main.storyboard */; };
+		893FF08A210CD8EC001C0B13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 893FF089210CD8EC001C0B13 /* main.m */; };
+		893FF095210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893FF094210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests.m */; };
+		893FF0A1210CFDAA001C0B13 /* AudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 893FF0A0210CFDAA001C0B13 /* AudioEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		893FF091210CD8ED001C0B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893FF072210CD8EA001C0B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893FF079210CD8EA001C0B13;
+			remoteInfo = MacOsAVAudioEngineGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		893FF07A210CD8EA001C0B13 /* MacOsAVAudioEngineGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOsAVAudioEngineGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893FF07D210CD8EA001C0B13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		893FF07E210CD8EB001C0B13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		893FF080210CD8EB001C0B13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		893FF081210CD8EB001C0B13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		893FF083210CD8EC001C0B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893FF086210CD8EC001C0B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893FF088210CD8EC001C0B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893FF089210CD8EC001C0B13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		893FF08B210CD8EC001C0B13 /* MacOsAVAudioEngineGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOsAVAudioEngineGenerator.entitlements; sourceTree = "<group>"; };
+		893FF090210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOsAVAudioEngineGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893FF094210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacOsAVAudioEngineGeneratorUITests.m; sourceTree = "<group>"; };
+		893FF096210CD8ED001C0B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893FF09F210CFDAA001C0B13 /* AudioEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioEngine.h; sourceTree = "<group>"; };
+		893FF0A0210CFDAA001C0B13 /* AudioEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893FF077210CD8EA001C0B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893FF08D210CD8ED001C0B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893FF071210CD8EA001C0B13 = {
+			isa = PBXGroup;
+			children = (
+				893FF07C210CD8EA001C0B13 /* MacOsAVAudioEngineGenerator */,
+				893FF093210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests */,
+				893FF07B210CD8EA001C0B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893FF07B210CD8EA001C0B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893FF07A210CD8EA001C0B13 /* MacOsAVAudioEngineGenerator.app */,
+				893FF090210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893FF07C210CD8EA001C0B13 /* MacOsAVAudioEngineGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				893FF07D210CD8EA001C0B13 /* AppDelegate.h */,
+				893FF07E210CD8EB001C0B13 /* AppDelegate.m */,
+				893FF080210CD8EB001C0B13 /* ViewController.h */,
+				893FF081210CD8EB001C0B13 /* ViewController.m */,
+				893FF083210CD8EC001C0B13 /* Assets.xcassets */,
+				893FF085210CD8EC001C0B13 /* Main.storyboard */,
+				893FF088210CD8EC001C0B13 /* Info.plist */,
+				893FF089210CD8EC001C0B13 /* main.m */,
+				893FF08B210CD8EC001C0B13 /* MacOsAVAudioEngineGenerator.entitlements */,
+				893FF09F210CFDAA001C0B13 /* AudioEngine.h */,
+				893FF0A0210CFDAA001C0B13 /* AudioEngine.m */,
+			);
+			path = MacOsAVAudioEngineGenerator;
+			sourceTree = "<group>";
+		};
+		893FF093210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				893FF094210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests.m */,
+				893FF096210CD8ED001C0B13 /* Info.plist */,
+			);
+			path = MacOsAVAudioEngineGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893FF079210CD8EA001C0B13 /* MacOsAVAudioEngineGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893FF099210CD8ED001C0B13 /* Build configuration list for PBXNativeTarget "MacOsAVAudioEngineGenerator" */;
+			buildPhases = (
+				893FF076210CD8EA001C0B13 /* Sources */,
+				893FF077210CD8EA001C0B13 /* Frameworks */,
+				893FF078210CD8EA001C0B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacOsAVAudioEngineGenerator;
+			productName = MacOsAVAudioEngineGenerator;
+			productReference = 893FF07A210CD8EA001C0B13 /* MacOsAVAudioEngineGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		893FF08F210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893FF09C210CD8ED001C0B13 /* Build configuration list for PBXNativeTarget "MacOsAVAudioEngineGeneratorUITests" */;
+			buildPhases = (
+				893FF08C210CD8ED001C0B13 /* Sources */,
+				893FF08D210CD8ED001C0B13 /* Frameworks */,
+				893FF08E210CD8ED001C0B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893FF092210CD8ED001C0B13 /* PBXTargetDependency */,
+			);
+			name = MacOsAVAudioEngineGeneratorUITests;
+			productName = MacOsAVAudioEngineGeneratorUITests;
+			productReference = 893FF090210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893FF072210CD8EA001C0B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "John Carlson";
+				TargetAttributes = {
+					893FF079210CD8EA001C0B13 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					893FF08F210CD8ED001C0B13 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 893FF079210CD8EA001C0B13;
+					};
+				};
+			};
+			buildConfigurationList = 893FF075210CD8EA001C0B13 /* Build configuration list for PBXProject "MacOsAVAudioEngineGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893FF071210CD8EA001C0B13;
+			productRefGroup = 893FF07B210CD8EA001C0B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893FF079210CD8EA001C0B13 /* MacOsAVAudioEngineGenerator */,
+				893FF08F210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893FF078210CD8EA001C0B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893FF084210CD8EC001C0B13 /* Assets.xcassets in Resources */,
+				893FF087210CD8EC001C0B13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893FF08E210CD8ED001C0B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893FF076210CD8EA001C0B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893FF0A1210CFDAA001C0B13 /* AudioEngine.m in Sources */,
+				893FF082210CD8EB001C0B13 /* ViewController.m in Sources */,
+				893FF08A210CD8EC001C0B13 /* main.m in Sources */,
+				893FF07F210CD8EB001C0B13 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893FF08C210CD8ED001C0B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893FF095210CD8ED001C0B13 /* MacOsAVAudioEngineGeneratorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		893FF092210CD8ED001C0B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893FF079210CD8EA001C0B13 /* MacOsAVAudioEngineGenerator */;
+			targetProxy = 893FF091210CD8ED001C0B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		893FF085210CD8EC001C0B13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893FF086210CD8EC001C0B13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893FF097210CD8ED001C0B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		893FF098210CD8ED001C0B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		893FF09A210CD8ED001C0B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacOsAVAudioEngineGenerator/MacOsAVAudioEngineGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = MacOsAVAudioEngineGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.MacOsAVAudioEngineGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		893FF09B210CD8ED001C0B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacOsAVAudioEngineGenerator/MacOsAVAudioEngineGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = MacOsAVAudioEngineGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.MacOsAVAudioEngineGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		893FF09D210CD8ED001C0B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = MacOsAVAudioEngineGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.MacOsAVAudioEngineGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MacOsAVAudioEngineGenerator;
+			};
+			name = Debug;
+		};
+		893FF09E210CD8ED001C0B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8SEUM7VKM;
+				INFOPLIST_FILE = MacOsAVAudioEngineGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.carlsound.MacOsAVAudioEngineGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MacOsAVAudioEngineGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893FF075210CD8EA001C0B13 /* Build configuration list for PBXProject "MacOsAVAudioEngineGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893FF097210CD8ED001C0B13 /* Debug */,
+				893FF098210CD8ED001C0B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893FF099210CD8ED001C0B13 /* Build configuration list for PBXNativeTarget "MacOsAVAudioEngineGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893FF09A210CD8ED001C0B13 /* Debug */,
+				893FF09B210CD8ED001C0B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893FF09C210CD8ED001C0B13 /* Build configuration list for PBXNativeTarget "MacOsAVAudioEngineGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893FF09D210CD8ED001C0B13 /* Debug */,
+				893FF09E210CD8ED001C0B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893FF072210CD8EA001C0B13 /* Project object */;
+}
